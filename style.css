@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* body */
+
+
+
+/* Header */
+
+nav, 
+box1, 
+box2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.items{
+    padding: 10px;
+}
+
+.icons {
+    padding: 10px;
+}
+
+.userid {
+    color: seashell;
+    background-color: darkcyan;
+    border-radius: 50%;
+}
+
+
+
+
+/* Main Google Page */
+
+
+main {
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+
+img {
+    height: 100px;
+
+}
+
+input {
+    display: block;
+    padding: 15px;
+    width: 600px;
+    border-radius: 40px;
+    border: 1px solid #d3d3d3;
+    box-shadow: 0 2px 10px #d3d3d3;
+}
+
+
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #f8f9fa;
+    color: #6b6969;
+    margin: 0 4px;
+    border-radius: 5px;
+
+}
+
+
+input:hover {
+    box-shadow: 0 2px 10px #cfcece;
+}
+
+button:hover {
+    border: 1px solid #a39d9d;
+}
+
+
