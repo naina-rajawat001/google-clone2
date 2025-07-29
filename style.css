@@ -175,6 +175,7 @@ address {
 
 ul {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     list-style: none;
 }
@@ -184,4 +185,9 @@ li a {
     color: #1f1f1f;
     padding: 20px;
 }
-9
+
+.list-1 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
