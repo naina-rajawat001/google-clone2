@@ -8,30 +8,29 @@
     <title>google</title>
 </head>
 <body>
-    <nav>
-        <div class="box1">
+    <header>
+        <div class="nav">
             <a href="#" target="_blank" class="items">About</a>
             <a href="#" target="_blank"class="items">Store</a>
         </div>
-        <div class="box2">
+        <div class="nav">
             <a href="#" target="_blank" class="items">Gmail</a>
             <a href="#" target="_blank" class="items">Images</a>
-            <span><i class="fa-solid fa-flask icons"></i></span>
-             <span><i class="fa-solid fa-bars icons"></i></span>
-            <span class="userid">N</span>
+            <i class="fa-solid fa-flask icons"></i>
+            <i class="fa-solid fa-bars icons"></i>
+            <div class="userid">
+                <span class="user-id">N</span>
+            </div>    
         </div>
-    </nav>
+    </header>    
+
     <main>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/640px-Google_2015_logo.svg.png"/>
+        <img src="google.webp"/>
         <label for="input" class="search-bar">
             <i class="fa-solid fa-magnifying-glass"></i>
             <input class="input" type="text" id="input">
             <i class="fa-solid fa-microphone"></i>
             <i class="fa-solid fa-camera"></i>
-            <!-- <div class="ai-mode">
-                <i class="fa-solid fa-magnifying-glass"></i>
-                <p>AI Mode</p>
-            </div> -->
         </label>
         <div class="button">
             <button>Google Search</button>
@@ -50,17 +49,22 @@
                 <pre><a href="#"> ਪੰਜਾਬੀ</a></pre>
         </section>
     </main>
+
     <footer>
-       <address>India</address>
-       <ul>
-           <div class="list-1"> <li><a href="#">Advertising</a></li></div>
-            <li><a href="#">Business</a></li>
-            <li><a href="#">How Search Works</a></li>
-            <div class="list-2"><li><a href="#">Privacy</a></li></div>
-            <li><a href="#">Terms</a></li>
-            <li><a href="#">Settings</a></li>
-       </ul>
+        <p id="country">India</p>
+
+        <section>
+            <div>
+                <p>Advertising</p>
+                <p>Business</p>
+                <p>How Search works</p>
+            </div>
+            <div>
+                <p>Privacy</p>
+                <p>Terms</p>
+                <p>Settings</p>
+            </div>
+        </section>
     </footer>
-   
 </body>
 </html>
